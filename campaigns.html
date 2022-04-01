@@ -52,7 +52,7 @@
             <div class="account-settings-section">
               <div class="acc-setting-list">
                 <ul>
-                  <li><a href="">Profile</a></li>
+                   <li><a href="profile.html">Profile</a></li>
                   <li><a href="index.html"><i class="fas fa-power-off"></i>Sign out</a></li>
                 </ul>
               </div>
@@ -475,6 +475,8 @@
             <div class="modal-footer">
               <div class="inline-flex">
                 <button class="btn cancel-btn-modal" type="button" data-bs-dismiss="modal">Cancel</button>
+                <button class="btn btn-primary" id="item-add-schedule-btn-2" type="button">Schedule</button>
+                <button class="btn create-btn-modal" style="margin-right: 10px;" type="button">Save</button>
                 <button class="btn create-btn-modal" type="button">End now</button>
               </div>
             </div>
@@ -513,6 +515,13 @@
       }; 
       $(function() {
           $('#item-add-schedule-btn').daterangepicker({
+              timePicker: true,
+              timePickerIncrement: 30,
+              locale: {
+              format: 'MM/DD/YYYY h:mm A'
+              }
+          });
+          $('#item-add-schedule-btn-2').daterangepicker({
               timePicker: true,
               timePickerIncrement: 30,
               locale: {
