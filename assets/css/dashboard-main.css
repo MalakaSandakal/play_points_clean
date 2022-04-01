@@ -319,6 +319,17 @@ ul.sidebar-ul li .accordion-body ul li{
 ul.sidebar-ul li .accordion-body a{
     border-radius: 0px;
 }
+.form-submit-btn{
+    background: #FF5A1A;
+    border-radius: 2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding-left: 25px;
+    padding-right: 25px;
+}
 ul.sidebar-ul li .accordion-body a.active{
     background-color: #FFE6E6 !important;
     color: #FF5A1A !important;
