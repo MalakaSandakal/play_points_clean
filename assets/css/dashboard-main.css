@@ -1607,6 +1607,15 @@ td span.paid-span{
     .daterangepicker.opensright:after,.daterangepicker.opensright::before{
         display: none !important;
     }
+    #username-readonly::placeholder{
+        font-family: 'Inter';
+        font-weight: 500;
+        color: rgb(0, 0, 0);
+    }
+    .mt-h3{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
     @media(max-width:1700px){
         .round-progress-card {
             padding-left: 15px;

@@ -1,3 +1,5 @@
+console.log('updated');
+
 var sidebar_ul = $('.sidebar-ul');
 var top_nav = $('.navbar');
 var page_content = $('.page-content');
