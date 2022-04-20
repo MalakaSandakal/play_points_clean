@@ -1671,6 +1671,23 @@ td span.paid-span{
       input#quiz-limit{
           width: 30%;
       }
+      .page-link{
+        color: #262626;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+      }
+      .page-link:hover{
+        color: #FF5A1A;
+      }
+      .page-item.active .page-link{
+        background-color: #FF5A1A;
+        border-color: #FF5A1A;
+      }
+      .page-link:focus{
+        box-shadow: none;
+      }
     @media(max-width:1700px){
         .round-progress-card {
             padding-left: 15px;
